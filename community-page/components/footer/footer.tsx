@@ -79,9 +79,9 @@ const FOOTER_LINKS = [
 
 export const Footer = () => {
 	return (
-		<div className='bg-bottom h-[706px] bg-[#21181B] lg:h-[440px]'>
-			<div className='container mx-auto flex flex-col'>
-				<div className='flex flex-col justify-center lg:flex-row'>
+		<div className='flex bg-bottom h-[500px] bg-[#5F1C21] justify-center'>
+			<div className='flex flex-col w-[900px] xl:w-[1200px]'>
+				<div className='flex flex-row justify-between'>
 					<div className='flex flex-col items-center pt-12 lg:flex-row xl:pt-[68px]'>
 						<div className='container flex h-60 w-60 bg-[#a92633] rounded-full items-center justify-center'>
 							<div className='absolute ml-2'>
@@ -96,7 +96,7 @@ export const Footer = () => {
 								<Image src={Circle} width={200} height={200} alt='Mainlink' />
 							</div>
 						</div>
-						<div className='flex space-x-7 pt-10 lg:pl-10 xl:pl-20'>
+						<div className='flex space-x-7 pt-10 pl-10'>
 							{FOOTER_SOCIALS.map(({ href, icon }, index) => (
 								<a key={index} href={href} target='_blank' rel='noreferrer'>
 									<FontAwesomeIcon icon={icon} className='h-7 w-7' />
@@ -105,8 +105,7 @@ export const Footer = () => {
 						</div>
 					</div>
 					<div
-						className='flex flex-col font-mono text-base justify-center pt-10 items-start pl-[300px]
-            '
+						className='flex flex-col font-mono text-base justify-center pt-10 items-start'
 					>
 						{FOOTER_LINKS.map(({ href, title, className }, index) => (
 							<a
@@ -124,7 +123,7 @@ export const Footer = () => {
 				<div className='flex justify-center pt-14'>
 					<div className='border-b-[2px] border-white w-[1200px]' />
 				</div>
-				<div className='container flex flex-wrap pt-5 justify-center items-center pb-4 -ml-44 '>
+				<div className='container flex flex-wrap pt-5 items-center pb-4 '>
 					<div className='flex flex-row items-center space-x-5'>
 						<a
 

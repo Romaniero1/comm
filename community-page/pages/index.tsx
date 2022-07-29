@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
+import { Flow } from '../components/main';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <div className='hidden lg:block'>
         <Header />
         <main>
+          <Flow/>
         </main>
         <Footer />
       </div>

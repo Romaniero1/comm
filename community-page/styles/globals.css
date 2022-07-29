@@ -1,20 +1,20 @@
 @tailwind base;
 h1 {
-	@apply text-2xl text-white font-mono font-bold leading-tight;
+	@apply text-2xl text-white font-sans font-bold;
 }
 h2 {
-	@apply text-xl font-mono font-bold leading-tight;
+	@apply text-xl font-mono font-bold;
 }
 h3 {
-	@apply text-base font-mono font-bold leading-tight;
+	@apply text-base font-mono font-[600];
 }
 h4 {
 	/* Link */
-	@apply text-lg font-mono font-normal leading-tight;
+	@apply text-lg font-mono font-normal;
 }
 h5 {
 	/* Notif */
-	@apply text-xs font-mono leading-tight;
+	@apply text-xs font-mono;
 }
 
 @tailwind components;
@@ -29,7 +29,7 @@ h5 {
 		font-style: normal;
 		font-display: swap;
 	}
-
+	
 	@font-face {
 		font-family: 'Video';
 		src: url(./fonts/Video-Bold.ttf) format('truetype');
@@ -41,6 +41,13 @@ h5 {
 		font-family: 'Video';
 		src: url(./fonts/Video-SemiBold.ttf) format('truetype');
 		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'PressStart2P';
+		src: url(./fonts/PressStart2P-Regular.ttf) format('truetype');
+		font-weight: normal;
 		font-style: normal;
 		font-display: swap;
 	}
@@ -65,8 +72,8 @@ body {
 button {
 	padding: 0;
 	margin: 0;
-	font-family: 'Press Start 2P';
-	font-size: 25px;
+	font-family: 'PressStart2P';
+	font-size: 8px;
 	line-height: 8px;
 }
 

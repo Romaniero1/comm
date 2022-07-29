@@ -9,7 +9,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				mono: ['"Video"'],
-				sans: ['"Press Start 2P"'],
+				sans: ['"PressStart2P"'],
 			},
 			backgroundImage: {
 				dropdown: "url('/mvpPages/dropdown/dropdownBg.png')",
@@ -24,7 +24,7 @@ module.exports = {
 			base: ['20px', '30px'],
 			lg: ['16px', '22px'],
 			xl: ['32px', '48px'],
-			'2xl': ['80px', '96px'],
+			'2xl': ['48px', '68px'],
 		},
 		colors: {
 			transparent: 'transparent',
