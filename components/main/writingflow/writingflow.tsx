@@ -51,19 +51,19 @@ export const WritingFlow = () => {
             <div className="flex flex-row pt-10 space-x-10 ">
                 <div className="h-[220px] w-[220px] bg-no-repeat pl-9 pt-10 bg-[url('/images/flow/writingflow/dialogMetal.png')]">
                     <Image src={Dog} width={40} height={40} alt="dog" />
-                    <p className="w-[150px]">To create a new type of game that involves the community</p>
+                    <p className="w-[150px] pt-2">To create a new type of game that involves the community</p>
                 </div>
                 <div className=" h-[220px] w-[220px] bg-no-repeat pl-9 pt-10 bg-[url('/images/flow/writingflow/dialogMetal.png')]">
                     <Image src={Home} width={40} height={40} alt="dog" />
-                    <p className="w-[150px]">Give players game property ownership</p>
+                    <p className="w-[150px] pt-2">Give players game property ownership</p>
                 </div>
                 <div className=" h-[220px] w-[220px] bg-no-repeat pl-9 pt-10 bg-[url('/images/flow/writingflow/dialogMetal.png')]">
                     <Image src={Heart} width={40} height={40} alt="dog" />
-                    <p className="w-[150px]">Building fun and amazing games we have grown to love</p>
+                    <p className="w-[150px] pt-2">Building fun and amazing games we have grown to love</p>
                 </div>
                 <div className=" h-[220px] w-[220px] bg-no-repeat pl-9 pt-10 bg-[url('/images/flow/writingflow/dialogMetal.png')]">
                     <Image src={Toy} width={40} height={40} alt="dog" />
-                    <p className="w-[150px]">Build a healthy and sustainable blockchain gaming ecosystem</p>
+                    <p className="w-[150px] pt-2">Build a healthy and sustainable blockchain gaming ecosystem</p>
                 </div>
             </div>
             <h4 className="uppercase pt-[100px] w-[590px]">
