@@ -28,7 +28,7 @@ export const WritingFlow = () => {
                         and Blockchain before. Be a guide to bring into this amazing space!
                     </li>
                     <li>
-                        Minimalist. Don't get all complicated, write simply to write, not impress!
+                        Minimalist. Don`t get all complicated, write simply to write, not impress!
                     </li>
                 </ul>
             </div>
@@ -86,7 +86,7 @@ export const WritingFlow = () => {
                 </ul>
                 <ul className="flex flex-col w-[40%] list-disc list-outside">
                     <li>
-                        "My experience playing Tiny Colony"
+                        My experience playing Tiny Colony
                     </li>
                     <li>
                         Partnerships with other projects
