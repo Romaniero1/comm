@@ -15,16 +15,16 @@ export const StreamingFlow = () => {
             </p>
             <div className="flex flex-row pt-10 space-x-10 ">
                 <div className="h-[320px] w-[320px] bg-no-repeat pl-[60px] pt-[60px] bg-[url('/images/flow/streamingflow/dialogMetal.png')]">
-                    <Image src={One} width={40} height={40} alt="dog" />
+                    <Image src={One} width={40} height={40} alt="image" />
                     <p className="w-[210px] pt-3">Lots of positive energy!</p>
                 </div>
                 <div className=" h-[320px] w-[320px] bg-no-repeat pl-[60px] pt-[60px] bg-[url('/images/flow/streamingflow/dialogMetal.png')]">
-                    <Image src={Two} width={40} height={40} alt="dog" />
+                    <Image src={Two} width={40} height={40} alt="image" />
                     <p className="w-[210px] pt-3">Accepting new players that might not understand blockchain.
                         It’s your opportunity to lead the masses into a new gaming space!</p>
                 </div>
                 <div className=" h-[320px] w-[320px] bg-no-repeat pl-[60px] pt-[60px] bg-[url('/images/flow/streamingflow/dialogMetal.png')]">
-                    <Image src={Three} width={40} height={40} alt="dog" />
+                    <Image src={Three} width={40} height={40} alt="image" />
                     <p className="w-[210px] pt-3">Hook new gamers by showing game play, tips, strategy, and rad art!</p>
                 </div>
             </div>
