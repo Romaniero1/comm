@@ -29,16 +29,16 @@ export const Flow = () => {
                 <div className='w-[1200px] pt-[140px]'>
                     <Tabs>
                         <TabList className={"uppercase flex flex-row"}>
-                            <Tab className={"flex h-[70px] w-[265px] mr-[30px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:h-[90px] hover:-mt-5"} selectedClassName={"border h-[90px] -mt-5"}>
+                            <Tab className={"flex h-[70px] w-[265px] mr-[30px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:border-b-transparent hover:h-[90px] hover:-mt-5"} selectedClassName={"border border-b-transparent h-[90px] -mt-5 outline-none"}>
                                 <h3>Writing</h3>
                             </Tab>
-                            <Tab className={"flex h-[70px] w-[265px] mr-[30px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:h-[90px] hover:-mt-5"} selectedClassName={"border h-[90px] -mt-5"}>
+                            <Tab className={"flex h-[70px] w-[265px] mr-[30px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:border-b-transparent hover:h-[90px] hover:-mt-5"} selectedClassName={"border border-b-transparent h-[90px] -mt-5 outline-none"}>
                                 <h3>Streaming</h3>
                             </Tab>
-                            <Tab className={"flex h-[70px] w-[265px] mr-[30px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:h-[90px] hover:-mt-5"} selectedClassName={"border h-[90px] -mt-5"}>
+                            <Tab className={"flex h-[70px] w-[265px] mr-[30px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:border-b-transparent hover:h-[90px] hover:-mt-5"} selectedClassName={"border border-b-transparent h-[90px] -mt-5 outline-none"}>
                                 <h3>Art</h3>
                             </Tab>
-                            <Tab className={"flex h-[70px] w-[265px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:h-[90px] hover:-mt-5"} selectedClassName={"border h-[90px] -mt-5"}>
+                            <Tab className={"flex h-[70px] w-[265px] bg-[#242426] bg-opacity-80 rounded-t-[10px] justify-center items-center hover:border hover:border-b-transparent hover:h-[90px] hover:-mt-5"} selectedClassName={"border border-b-transparent h-[90px] -mt-5 outline-none"}>
                                 <h3>Community</h3>
                             </Tab>
                         </TabList>
