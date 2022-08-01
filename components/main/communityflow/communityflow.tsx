@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Art from "/public/images/flow/communityflow/art.png"
+
 export const CommunityFlow = () => {
     return (
         <div className="h-[1818px] w-[1200px] pl-[100px]">
@@ -42,6 +45,9 @@ export const CommunityFlow = () => {
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div className="pt-[100px]">
+                <Image src={Art} width={1008} height={760} alt="image" />
             </div>
         </div>
     )
