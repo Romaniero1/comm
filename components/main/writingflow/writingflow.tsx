@@ -58,7 +58,7 @@ export const WritingFlow = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex justify-center w-[1011px] h-[327px] bg-[url('/images/flow/writingflow/dialog.png')] mt-[100px]">
+            <div className="flex justify-center w-[1011px] h-[327px] bg-[url('/images/flow/writingflow/dialog.png')] mt-[80px]">
                 <p className="pt-20 w-[817px]">
                     Communications related to Tiny Colony should never be confrontational, toxic, or harsh.
                     Criticisms should never contain personal attacks and always be constructive.
@@ -69,7 +69,7 @@ export const WritingFlow = () => {
                     ‌Lead by example, act like the community members we’d like to bring to the Tiny Colony ecosystem.
                 </p>
             </div>
-            <h2 className="uppercase pt-[100px] w-[620px]">
+            <h2 className="uppercase pt-[80px] w-[620px]">
                 Why are we building Tiny Colony?
             </h2>
             <div className="flex flex-row pt-10 space-x-10 ">
@@ -83,7 +83,7 @@ export const WritingFlow = () => {
             <h4 className="uppercase pt-[100px] w-[590px]">
                 Here are some good types of articles for creating written content
             </h4>
-            <div className="flex flex-row pt-[60px] space-x-20 ">
+            <div className="flex flex-row pt-[40px] space-x-20 ">
                 <ul className="flex flex-col w-[40%] list-disc list-outside">
                     {listone.map((item) => (
                         <li key={item}>

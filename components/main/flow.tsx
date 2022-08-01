@@ -50,7 +50,7 @@ export const Flow = () => {
                                     exit={{ opacity: 0 }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
-                                    transition={{ duration: 1 }}
+                                    transition={{ duration: 0.5 }}
                                 >
                                     <WritingFlow />
                                 </motion.div>
@@ -60,7 +60,7 @@ export const Flow = () => {
                                     exit={{ opacity: 0 }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
-                                    transition={{ duration: 1 }}
+                                    transition={{ duration: 0.5 }}
                                 >
                                     <StreamingFlow />
                                 </motion.div>
@@ -70,7 +70,7 @@ export const Flow = () => {
                                     exit={{ opacity: 0 }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
-                                    transition={{ duration: 1 }}
+                                    transition={{ duration: 0.5 }}
                                 >
                                     <ArtFlow />
                                 </motion.div>
@@ -80,7 +80,7 @@ export const Flow = () => {
                                     exit={{ opacity: 0 }}
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
-                                    transition={{ duration: 1 }}
+                                    transition={{ duration: 0.5 }}
                                 >
                                     <CommunityFlow />
                                 </motion.div>

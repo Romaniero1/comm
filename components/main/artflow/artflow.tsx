@@ -7,7 +7,7 @@ const listone = ['Memes', 'Gifs of Character NFTs or your Colony', 'Paintings', 
 
 export const ArtFlow = () => {
     return (
-        <div className="h-[1830px] w-[1200px] pl-[100px]">
+        <div className="h-[1860px] w-[1200px] pl-[100px]">
             <h2 className="uppercase pt-[100px]">
                 artwork
             </h2>
@@ -24,7 +24,7 @@ export const ArtFlow = () => {
             <div className="pt-[60px]">
                 <Image src={Art} width={960} height={580} alt="image" />
             </div>
-            <h4 className="uppercase pt-[100px] w-[590px]">
+            <h4 className="uppercase pt-[80px] w-[590px]">
                 Here are some examples of Art ideas to get your creative mind going:
             </h4>
             <div className="flex flex-row pt-10 space-x-20 ">
@@ -36,7 +36,7 @@ export const ArtFlow = () => {
                     ))}
                 </ul>
             </div>
-            <div className="flex justify-center items-center w-[1011px] h-[327px] bg-[url('/images/flow/artflow/dialog.png')] mt-[100px]">
+            <div className="flex justify-center items-center w-[1011px] h-[327px] bg-[url('/images/flow/artflow/dialog.png')] mt-[80px]">
                 <h3 className="w-[670px] uppercase text-center">
                 There are some restrictions for using Tiny Colony art for commercial purposes though. 
                 These restrictions are to protect the Tiny Colony brand. If you are not sure, reach out to 

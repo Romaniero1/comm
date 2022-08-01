@@ -45,7 +45,7 @@ export const StreamingFlow = () => {
                     </div>
                 ))}
             </div>
-            <div className="flex flex-col justify-center items-center w-[1011px] h-[327px] bg-[url('/images/flow/streamingflow/dialog.png')] mt-[100px]">
+            <div className="flex flex-col justify-center items-center w-[1011px] h-[327px] bg-[url('/images/flow/streamingflow/dialog.png')] mt-[80px]">
                 <h3 className="text-center w-[743px] uppercase">
                     Utilize overlays, visual assets, and other items in your streams to show off the Tiny Colony art!
                     We have created a Streaming Pack HERE
@@ -56,10 +56,10 @@ export const StreamingFlow = () => {
                     </button>
                 </a>
             </div>
-            <h2 className="uppercase pt-[100px] w-[710px]">
+            <h2 className="uppercase pt-[80px] w-[710px]">
                 Ideas of Video Content & Streams
             </h2>
-            <div className="flex flex-row pt-[60px] space-x-20 ">
+            <div className="flex flex-row pt-[40px] space-x-20 ">
                 <ul className="flex flex-col w-[40%] list-disc list-outside space-y-7">
                     {listone.map((item) => (
                         <li key={item}>
