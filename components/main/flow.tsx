@@ -3,6 +3,8 @@ import { ArtFlow } from './artflow';
 import { CommunityFlow } from './communityflow';
 import { StreamingFlow } from './streamingflow';
 import { WritingFlow } from './writingflow';
+import { AnimatePresence, motion } from "framer-motion"
+
 
 export const Flow = () => {
     return (
@@ -44,18 +46,47 @@ export const Flow = () => {
                         </TabList>
                         <div className='bg-[#242426] bg-opacity-80 rounded-r-[20px] rounded-b-[20px]'>
                             <TabPanel>
-                                <WritingFlow />
+                                <motion.div
+                                    exit={{ opacity: 0 }}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}
+                                >
+                                    <WritingFlow />
+                                </motion.div>
                             </TabPanel>
                             <TabPanel>
-                                <StreamingFlow />
+                                <motion.div
+                                    exit={{ opacity: 0 }}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}
+                                >
+                                    <StreamingFlow />
+                                </motion.div>
                             </TabPanel>
                             <TabPanel>
-                                <ArtFlow />
+                                <motion.div
+                                    exit={{ opacity: 0 }}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}
+                                >
+                                    <ArtFlow />
+                                </motion.div>
                             </TabPanel>
                             <TabPanel>
-                                <CommunityFlow />
+                                <motion.div
+                                    exit={{ opacity: 0 }}
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    transition={{ duration: 1 }}
+                                >
+                                    <CommunityFlow />
+                                </motion.div>
                             </TabPanel>
                         </div>
+
                     </Tabs>
                 </div>
             </div>
