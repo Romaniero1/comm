@@ -81,8 +81,8 @@ export const Footer = () => {
 	return (
 		<div className='flex bg-bottom h-[500px] bg-[#5F1C21] justify-center'>
 			<div className='flex flex-col w-[900px] xl:w-[1200px]'>
-				<div className='flex flex-row justify-between'>
-					<div className='flex flex-col items-center pt-12 lg:flex-row xl:pt-[68px]'>
+				<div className='flex flex-row justify-between items-center pt-12 xl:pt-[68px]'>
+					<div className='flex flex-col items-center lg:flex-row '>
 						<div className='container flex h-60 w-60 bg-[#a92633] rounded-full items-center justify-center'>
 							<div className='absolute ml-2'>
 								<Image
@@ -105,7 +105,7 @@ export const Footer = () => {
 						</div>
 					</div>
 					<div
-						className='flex flex-col font-mono text-base justify-center pt-10 items-start'
+						className='flex flex-col font-mono text-base justify-center items-start'
 					>
 						{FOOTER_LINKS.map(({ href, title, className }, index) => (
 							<a

@@ -51,7 +51,7 @@ export const StreamingFlow = () => {
                     We have created a Streaming Pack HERE
                 </h3>
                 <a href='https://drive.google.com/drive/folders/1_dYh2bRimSeKttHH_0MSikgA6foD5hmD?usp=sharing'>
-                    <button className='outline outline-0 w-40 h-10 mt-10 rounded-full bg-white text-pink uppercase hover:bg-pink hover:text-white active:outline-pink active:outline-4'>
+                    <button className='outline outline-0 w-40 h-10 mt-10 rounded-full bg-pink text-white uppercase hover:bg-dark-pink active:bg-press-pink'>
                         open assets
                     </button>
                 </a>

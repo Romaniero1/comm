@@ -49,14 +49,14 @@ export const Header = () => {
 		<header className="flex flex-col items-center h-[700px] bg-cover bg-repeat-round bg-[url('/background/headerBg.png')]">
 			<div className='container relative flex flex-col items-center z-10 '>
 				<div className='flex flex-row items-center w-full justify-between pt-10 px-10'>
-					<div className='flex flex-row items-baseline'>
+					<div className='flex flex-row items-center'>
 						<a href='https://tinycolony.io'>
 							<Image src={Logo} width={190} height={42} alt='Mainlink' />
 						</a>
-						<div className='flex space-x-7 pl-7 items-baseline'>
+						<div className='flex space-x-7 pl-7 items-baseline pt-2'>
 							{SOCIALS.map(({ href, icon }, index) => (
 								<a key={index} href={href} target='_blank' rel='noreferrer'>
-									<FontAwesomeIcon icon={icon} className='h-7 w-7' />
+									<FontAwesomeIcon icon={icon} className='h-5 w-5' />
 								</a>
 							))}
 						</div>
