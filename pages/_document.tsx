@@ -4,7 +4,7 @@ export default function Document() {
 	return (
 		<Html>
 			<Head>
-				<meta name='description' content='TinyColony MVP' />
+				<meta name='description' content='TinyColony Community Page' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<body>

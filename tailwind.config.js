@@ -11,12 +11,6 @@ module.exports = {
 				mono: ['"Video"'],
 				sans: ['"PressStart2P"'],
 			},
-			backgroundImage: {
-				dropdown: "url('/mvpPages/dropdown/dropdownBg.png')",
-				greenButton: "url('/mvpPages/ButtonMGreen.png')",
-				grayButton: "url('/mvpPages/ButtonMGray.png')",
-				purpleButton: "url('/mvpPages/ButtonMPurple.png')",
-			},
 		},
 		fontSize: {
 			xs: ['12px', '16px'],

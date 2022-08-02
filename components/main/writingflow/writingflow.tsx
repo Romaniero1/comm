@@ -58,7 +58,7 @@ export const WritingFlow = () => {
                     </li>
                 </ul>
             </div>
-            <div className="flex justify-center w-[1011px] h-[327px] bg-[url('/images/flow/writingflow/dialog.png')] mt-[80px]">
+            <div className="flex justify-center w-[1011px] h-[327px] bg-[url('/images/flow/writingflow/dialog.png')] mt-[100px]">
                 <p className="pt-20 w-[817px]">
                     Communications related to Tiny Colony should never be confrontational, toxic, or harsh.
                     Criticisms should never contain personal attacks and always be constructive.
